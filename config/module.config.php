@@ -145,6 +145,9 @@ return [
             ToolbarIncludedFilesRenderer::class,
             ToolbarComposerRenderer::class,
         ],
+        'detail_renderers'       => [
+            DetailEventsRenderer::class,
+        ],
     ],
 
     'view_manager' => [
